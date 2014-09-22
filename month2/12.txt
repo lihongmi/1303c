@@ -1,0 +1,18 @@
+ 中文官网
+
+1教程
+http://cn.cocos2d-x.org/tutorial/lists?id=30
+2文档
+http://cn.cocos2d-x.org/article/index?type=cocos2d-x&url=/doc/cocos-docs-master/manual/framework/html5/zh.md
+
+英文官网
+Doc
+http://cocos2d-x.org/dddocs/catalog/framework/html5/zh
+Api
+http://www.cocos2d-x.org/reference/html5-js/V3.0rc2/index.html
+
+Wiki
+http://cocos2d-x.org/wiki/Cocos2d-js
+
+
+

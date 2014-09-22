@@ -1,0 +1,35 @@
+一。目标任务
+(添加商品   商品浏览  商品详情)
+1.
+mongodb
+官网
+http://www.mongodb.org/
+(1)mongodb(robomongo)的安装
+  sudo apt-get install mongodb-server
+2.express项目搭建完成
+http://expressjs.com/
+3.mongoose
+官网http://mongoosejs.com/
+1. 定义表结构
+
+4.前台页面使用
+bootstrap
+http://www.bootcss.com/
+
+5.ejs模板引擎
+官网
+http://www.embeddedjs.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

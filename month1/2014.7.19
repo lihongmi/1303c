@@ -1,0 +1,8 @@
+apache 多虚拟主机的搭建
+
+
+1.copy  000-default.conf     manange.baiche.com.conf
+
+2.sudo a2ensite manange.baiche.com.conf
+
+3.update ports.conf

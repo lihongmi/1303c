@@ -1,0 +1,13 @@
+question（问题）:
+1.  chm 文件
+2.  excel（乱码问题）
+3.  pdf 文件
+4.  输入法 怎么调用出来
+
+
+
+
+1.function 函数
+2.class 面向对象
+3 php  mysql 函数
+4.phpmyadmin 搭建

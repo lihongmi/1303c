@@ -1,0 +1,13 @@
+一。phpmyadmin 环境搭建配置
+1.    sudo apt-get install phpmyadmin 
+
+2.phpmyadmin设置：
+在安装过程中会要求选择Web server：apache2或lighttpd，选择apache2，按tab键然后确定。
+然后会要求输入设置的Mysql数据库密码连接密码 Password of the database’s administrative user。
+
+3.然后将phpmyadmin与apache2建立连接，以我的为例：www目录在/var/www，phpmyadmin在/usr/share/phpmyadmin目录，
+所以就用命令：sudo ln -s /usr/share/phpmyadmin /var/www 建立连接。
+
+4. phpmyadmin测试：在浏览器地址栏中打开http://localhost/phpmyadmin。
+
+二 smarty

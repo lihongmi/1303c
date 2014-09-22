@@ -1,0 +1,34 @@
+node.js
+一。nodejs介绍
+http://www.nodejs.org
+http://www.cnodejs.org
+
+二。nodejs安装
+1
+sudo apt-get install g++ curl libssl-dev apache2-utils
+2.
+sudo apt-get install python
+sudo apt-get install build-essential
+sudo apt-get install gcc
+sudo apt-get install g++ 
+3.
+tar -zxf node-v0.8.17.tar.gz
+4.
+cd node-v0.8.17
+5.
+./configure --prefix=/usr/local/node
+make (有点慢这里!)
+sudo make install
+6.
+PATH="/usr/local/node/bin:$PATH"
+7.测试  node -v
+三。nodejs  demo(webserver)
+四.nodejs 调试(supervisor:注意权限问题)
+npm install supervisor -gd
+
+
+五.nodejs 模块定义与引用
+
+
+
+六.nodejs 安装 第三方依赖模块

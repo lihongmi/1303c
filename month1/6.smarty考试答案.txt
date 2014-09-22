@@ -1,0 +1,34 @@
+一。smarty 测试题
+1.smarty官方网址是
+2.能够使html和php分离开使用的模板(1分)
+3.请简单描述一下smarty安装的使用步骤
+4.如何改变smarty的templates 配置目录结构
+5.模版页当中，如果写样式，因为有{}，引起语义混乱，出错。如何来解决这个问题
+(1)新建css文件。把样式写在css文件中，避免了语义混乱了。
+(2)可以改变模板中的定界符“{}”==》“”
+6.请简单写两个smarty选择结构与循环结构
+7.请简单描述一个PHP文件缓存的实现机制（如Smarty的缓存机制原理）。
+      将用户请求的内容存入一个静态文件中，当再次得到请求时直接从静态文件中输出，减少对数据库的访问；
+Smarty的缓存机制原理就是这样,开启Cache后，用户第一次请求，服务器响应，PHP文件经过编译后生成HTML静态页保存在相应目录中，有效期内，用户再次请求，直接从静态页输出。
+
+
+8如何配置、使用和清除Smarty缓存?
+（1）、Smarty缓存的配置
+	$smarty->cache_dir = “/caches/”; //缓存目录
+	$smarty->caching = true; //开启缓存,为flase的时侯缓存无效
+	$smarty->cache_lifetime = 60; //缓存时间
+
+（2）、Smarty缓存的使用和清除
+	$smarty->display(‘cache.tpl’, cache_id); //创建带ID的缓存
+
+	$smarty->clear_all_cache(); //清除所有缓存
+	$smarty->clear_cache(‘index.htm’); //清除index.tpl的缓存
+	$smarty->clear_cache(‘index.htm’,cache_id); //清除指定id的缓存
+9.写出smarty模板的特点
+10.将一下数组 显示在select表单标签中 默认 是003员工选中
+$yuangong=array("001"=> 'Joe Schmoe', "002"=>'Jack Smith',"003"=> 'Jane Johnson', "004"=>'Charlie Brown');
+                     
+11.将“{” 显示在页面中 如何在模版中实现
+ 
+12.mysql_fetch_row() 和mysql_fetch_array之间有什么区别？
+13.写出mysql_num_rows()和 mysql_affected_rows()这两个PHP操作Mysql函数的作用和区别

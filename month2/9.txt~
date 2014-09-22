@@ -1,0 +1,53 @@
+概念
+前端 (ps/css/div/js/.net php java)
+敏捷开发
+极限编程
+结对编程
+Karma
+
+参考网址(http://www.cnblogs.com/frostbelt/archive/2012/08/03/2622302.html)
+
+1.应用场景  项目大   js模块多   经常测试某一个模块 (注册)  
+     我们应考虑 使用单元测试
+2.单元测试(Unit Test)(模块测试)(TDD(Test Driver Development),单元测试驱动开发)
+行为驱动开发(BDD)
+
+用代码测试代码
+
+3.单元测试的目标
+是隔离程序模块并证明这些单个模块是正确的
+4.我们应该怎样做
+我们应该从开发的早期就为所有函数和方法编写单元测试，
+5. 单元测试意义
+可读性强的单元测试可以使程序员方便地检查代码片断是否依然正常工作。
+
+6.常见单元测试框架
+mocha,QUnitjs,jstestdriver,Jasmine
+
+(1)QUnit是jQuery团队开发的JavaScript单元测试工具，功能强大且使用简单。目前所有的JQuery代码都使用QUnit进行测试，原生的JavaScript也可以使用QUnit。
+
+(2)Jasmine是一个有名的JavaScript单元测试框架，它是独立的行为驱动开发框架，语法清晰易懂。
+(3)JsTestDriver是一个JavaScript单元测试工具，易于与持续构建系统相集成并能够在多个浏览器上运行测试轻松实现TDD风格的开发。
+(4)mocha 是一个简单、灵活有趣的 JavaScript 测试框架，用于 Node.js 和浏览器上的 JavaScript 应用测试。
+
+七。单元测试框架的实践(mocha)
+(1)simple, flexible, fun test framework
+(官网)http://visionmedia.github.io/mocha/
+
+ 概念
+ test cases(测试用例)
+ assert(断言)
+报告（红 绿 黄色);
+
+1.  安装
+npm install -g mocha
+
+
+
+
+
+
+
+
+
+

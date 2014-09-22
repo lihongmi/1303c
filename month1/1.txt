@@ -1,0 +1,17 @@
+1. ubuntu  jiben caozuo
+dir 
+cd ~
+jianqie  fuzhi   zhantie
+2. ubuntu iptux
+   sudo apt-get install iptux
+3. ubuntu sublime phpstorm
+4. ubuntu rabbitsvn   
+5  winscp / fileziila
+
+6. ubuntu photoshop
+
+7  ubuntu apache php mysql
+
+8  ie
+
+9  buy     (1ren)php      (1 zu)ubuntu

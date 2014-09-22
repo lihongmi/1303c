@@ -1,0 +1,15 @@
+1.thinkphp
+
+
+
+
+
+2.熟悉Discuz、dedecms、帝国cms、ecshop等快速建站系统
+
+
+3.session与cookie
+4.url编码与解码
+5.ajax
+
+
+6.多加一些技术讨论课程 来增加学生的沟通与表达能力

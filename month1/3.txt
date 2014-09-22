@@ -1,0 +1,17 @@
+1. 信使传文件
+2. svn客户端
+3. 获取root权限
+   sudo passwd root
+4.
+Ubuntu 14.04 安装RabbitVCS
+	1、Ubuntu软件中心-编辑-软件源-其它软件 
+	     添加 ppa:rabbitvcs/ppa
+	2、安装 Easy version control、Nautilus 3 extension for 	RabbitVCS、Command line interface for RabbitVCS
+        3.重新启动一下计算机
+5. php
+  (1) 数据类型,变量,内存，数据类型转换      数组和字符串 
+
+
+
+
+

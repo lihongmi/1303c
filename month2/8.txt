@@ -1,0 +1,12 @@
+目标
+聊天室
+1.补充知识
+https://www.npmjs.org/
+
+一socket.io 模块的介绍
+1.官网   http://socket.io/
+1.做即时通讯方面的
+2.能和expressjs提供的传统请求方式很好的结合，
+即可以在同一个域名，同一个端口提供两种连接方式(request/response, websocket)
+
+二。开发

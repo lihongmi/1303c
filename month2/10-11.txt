@@ -1,0 +1,65 @@
+1.手游开发
+一。cocos2dx  (v3.0 rc2)
+(1)cocos2dx介绍
+官网 http://cocos2d-x.org/
+(1)cocos2d-html5
+(2)cocos2d-x-jsbing
+
+1.cocos2d  概念
+(1)在一个Cocos2d game游戏中，每一个元素都是一个节点(Node)。
+节点分为三种（场景(Scene)  层(Layer)   精灵(sprite)）
+(2)坐标系
+Cocos2d-JS使用的坐标系，被叫做笛卡尔右手系。
+（3）锚点（Anchor Point）
+锚点被用在一个对象的定位和旋转。
+(4)动作（Action）
+Actions通常会修改对象的一些属性，如位置，旋转，缩放等
+(5)动画（Animation）
+两种动画   序列帧动画、骨骼动画。
+（6）
+调度器（Scheduler）和定时器回调（Timer Callback）
+（7）
+事件管理器（EventManager）
+（8）
+导演（Director）
+
+
+2.效果
+http://cocos2d-x.org/npm/cocos2d-html5/index.html
+
+3.环境搭建
+一。
+(1)java环境的搭建(jdk)
+(2)android sdk安装 (Android SDK)
+(3)NDK
+(4)ANT
+参考配置文件
+#软件根目录配置
+export NODE_ROOT=/usr/local/node/bin
+export NDK_ROOT=/usr/local/android-ndk-r10
+export ANT_ROOT=/usr/local/apache-ant
+export ANDROID_SDK_ROOT=/usr/local/adt-bundle-linux/sdk
+
+
+#java环境的搭建
+export JAVA_HOME=/usr/local/jdk1.8.0_11
+
+export PATH=$NODE_ROOT:$ANT_ROOT:$JAVA_HOME/bin:$PATH
+
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+配置完环境变量  注意要执行
+source ~/.bashrc或者 .   ~/.bashrc
+
+二。执行
+python setup.py
+
+source ~/.bashrc或者 .   ~/.bashrc
+
+三。创建cocos游戏项目
+1.创建一个游戏项目  cocos new paopao -l js 
+2.运行一个游戏项目  cocos run -p web
+
+
+
+二。nodejs pomelo

@@ -1,0 +1,25 @@
+
+
+
+
+
+（×××是要修改的名字）
+ 
+复制 000-default.conf
+sudo cp 000-default.conf ×××.conf
+sudo cp 000-default.conf ×××.conf
+
+修改两个文件的第一行的端口
+
+修改ports.conf Listen 80   把80端口复制两份
+					
+					把其中的80端口改成要改的端口  
+
+激活 复制的两个文件
+sudo a2ensite ×××.conf
+sudo a2ensite ×××.conf
+
+
+重启 apache
+sudo service apache2 restart
+

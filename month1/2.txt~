@@ -1,0 +1,25 @@
+1.php apache mysql
+
+	sudo apt-get install apache2
+	sudo apt-get install php5
+	sudo apt-get install mysql-client  (mysql-server)
+
+   apache   启动   停止  重启
+   sudo /etc/init.d/apache2 start(stop,restart,status)
+
+   sudo service apache2 start(stop,restart,status)
+
+
+
+
+
+2. team project 选择
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+1.express    4.8.3
+一。express简单案例
+1.新建一个文件夹 app
+2.文件夹下建一个package.json
+3.npm install   (查询依赖模块的话 npm list)
+4.编写server.js
+5.node server.js
+
+三.express 快速搭建项目
+1. npm install -g express-generator
+2.创建express项目
+express secondapp -e
+3.安装依赖模块
+npm  install
+4.运行express项目
+npm start
+四。解释mvc 及静态文件
+      v(视图)
+      c(路由)
+     public(静态文件(javascript/js/css))
+五。express API介绍
+
+
+
+
+

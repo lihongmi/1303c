@@ -1,0 +1,33 @@
+一。smarty 测试题
+1.smarty官方网址是
+
+2.能够使html和php分离开使用的模板是(1分)
+
+3.请简单描述一下smarty安装的使用步骤
+
+4.如何改变smarty的templates 配置目录结构
+
+5.模版页当中，如果写样式，因为有{}，引起语义混乱，出错。如何来解决这个问题
+
+6.请简单写两个smarty选择结构与循环结构
+
+7.请简单描述一个PHP文件缓存的实现机制（如Smarty的缓存机制原理）。
+     
+
+8.如何配置、使用和清除Smarty缓存?
+（1）、Smarty缓存的配置
+
+
+（2）、Smarty缓存的使用和清除
+
+
+9.写出smarty模板的特点
+
+10.将以下数组 显示在select表单标签中 默认 是003员工选中
+$yuangong=array("001"=> 'Joe Schmoe', "002"=>'Jack Smith',"003"=> 'Jane Johnson', "004"=>'Charlie Brown');
+                     
+11.将“{” 显示在页面中 如何在模版中实现
+ 
+12.mysql_fetch_row() 和mysql_fetch_array之间有什么区别？
+
+13.mysql_num_rows()和 mysql_affected_rows()的作用和区别
