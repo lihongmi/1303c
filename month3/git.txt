@@ -1,0 +1,63 @@
+svn client  svnserver
+	svn://asdlfjla   zhanghao  mima 
+
+gitclient   gitserver(windows gitstack  gitlib)
+
+
+
+
+
+1.搭建gitclient
+
+账号 密码   项目地址    
+
+
+
+(1)命令行
+安装   Git-1.8.4-preview20130916.exe
+一。配置自己的账号
+git config --global user.email "741205360@qq.com"
+git config --global user.name "lihongmi"
+二。配置秘钥
+1.ssh-keygen -t rsa -C "741205360@qq.com"
+2.产生的秘钥文件路径  C:\Users\Administrator\.ssh\id_rsa.pub 中的秘钥 放到github
+3.
+git config --global github.user lihongmi     
+git config --global github.token b5:5f:d1:83:99:f8:13:94:85:22:9a:7c:d9:fc:68:72
+
+4.
+免重复输入用户名密码
+[credential]   
+    helper = store
+	加入到
+	C:\Documents and Settings\Administrator\.gitconfig
+
+三。
+
+
+新建项目所需要的文件 README.md  1.txt
+
+git init
+git remote add origin https://github.com/lihongmi/gitdemo.git
+
+
+git add *
+git commit -m "第一次提交"
+git push -u origin master
+
+
+
+(2)界面
+
+
+
+
+
+
+
+
+
+
+
+
+
